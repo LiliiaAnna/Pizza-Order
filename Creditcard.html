@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset ="UTF-8">
+<body>
+</head>
+
+<a href="Survey.html">HOME</a>
+
+<h1>Order Form</h1>
+<fieldset>
+<legend>Member Information</legend><br>
+E-mail:<input type ="email" name ="myemail" ><br><br>
+First Name:<input type ="text" name ="firstname"><br><br>
+Last Name:<input type ="text" name ="lastname"><br><br>
+</fieldset>
+
+<fieldset>
+<legend>Credit Card Information</legend><br>
+<label for ="CardType">Card Type:</label>
+<input list = "card" name = "3"><br>
+    <datalist id="card">
+      <option>Visa</option>
+	  <option>MonoBank</option>
+	  <option>Master Card</option>
+	  </datalist>
+	  <br>
+	  
+Card Number:<input type ="number" name="cardnum" placeholder="16 digits"><br><br>
+<label for ="expirationdate">Expiration date:</label>
+<input list = "month" name = "11" >
+    <datalist id="month">
+      <option>September</option>
+	  <option>October</option>
+	  <option>November</option>
+	  <option>December</option>
+	  <option>January</option>
+	  <option>February</option>
+	  <option>May</option>
+	  <option>April</option>
+	  </datalist>
+<input list = "year" name = "11">
+    <datalist id="year">
+      <option>2015</option>
+	  <option>2016</option>
+	  <option>2017</option>
+	  <option>2018</option>
+	  <option>2019</option>
+	  <option>2020</option>
+	  <option>2021</option>
+	  <option>2022</option>
+	  </datalist>
+	
+</fieldset>
+
+<fieldset>
+<legend>Submit Your Order</legend>
+<input type ="Button" value="Submit" id="btn">
+<input type="Button" value="Reset Fields" id="btn">
+</fieldset>
+
+
+
+</head>
+
+</body>
+
+</html>
+
+

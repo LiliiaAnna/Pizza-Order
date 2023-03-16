@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<body>
+</head>
+
+<a href="Survey.html">HOME</a>
+
+
+<body style="background-color:cornsilk;">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<h1 align="center">Delicious Pizza only here!</h1><br>
+<title>PizzAiolo</title>
+ <center>
+<div style="width:1000px; background-color:black; height:120px; overflow:scroll; ">
+       <div style= "width:1000px;">
+	  
+	   
+      <img style=" float:left; display:inline" src="photos/1.jpg" width="200" height="100"  >
+      <img style=" float:left; display:inline"  src="photos/2.jpg" width="200" height="100" >
+      <img style=" float:left; display:inline"  src="photos/3.jpg" width="200" height="100" >
+	  <img style=" float:left; display:inline"  src="photos/4.jpg" width="200" height="100" >
+      <img style=" float:left; display:inline"  src="photos/5.jpg" width="200" height="100" >
+	  
+    </center>
+     </div>
+
+</div>
+<fieldset>
+<legend>Personal Information</legend>
+Customer Name:<input type ="text" name="Customer name:"><br><br>
+Phone number:<input type ="number" name="Phone number:"><br><br>
+Address:<input type ="text" name="Address:"><br><br>
+</fieldset>
+<br>
+<fieldset>
+<legend>Which Pizza you prefer?</legend>
+<label for ="Pizza Base">Pizza Base:</label>
+<input list = "base" name = "3"><br>
+    <datalist id="base">
+      <option>Regular</option>
+	  <option>Thin crust</option>
+	  <option>Tossed</option>
+	  </datalist>
+	  
+	  <br>
+	
+<label for ="Pizza Type">Pizza Type:</label>
+<input list = "type" name = "3"><br>
+    <datalist id="type">
+      <option>Pepperoni</option>
+	  <option>Cheese</option>
+	  <option>Veggie Lovers</option>
+	  <option>Hawaiian</option>
+	  <option>Margarita</option>
+	  </datalist>
+	  <br>
+	  
+<label for ="Pizza Size">Pizza Sizze:</label>
+<input list = "size" name = "3"><br>
+    <datalist id="size">
+      <option>Small</option>
+	  <option>Medium</option>
+	  <option>Large</option>
+	  </datalist>
+	  <br>
+	  </fieldset>
+	  <br>
+	  
+	  <fieldset>
+	  <legend>Drink something?</legend>
+<label for ="Drink">Drink:</label>
+<input list = "drink" name = "3"><br>
+    <datalist id="size">
+      <option>Coke</option>
+	  <option>Juice</option>
+	  <option>Canada Dry</option>
+	  <option>Fanta</option>
+	  <option>Water</option>
+	  <option>Sprite</option>
+	  </datalist>
+	  <br>
+	  
+Quantity for Drinks:<input type = "range" name="quantity" min="0" max ="10"><br><br>
+</fieldset>
+<br>
+<fieldset>
+<legend>Delicious Desserts</legend>
+<label for ="Dessert">Dessert:</label>
+<input list = "desserts" name = "3"><br>
+    <datalist id="desserts">
+      <option>Ice cream</option>
+	  <option>Brownie</option>
+	  <option>Panacota</option>
+	  <option>Tiramisu</option>
+	  </datalist>
+	  </fieldset>
+	  <br>
+	  
+<label for="Delivery option">Delivery option:</label>
+<input list ="delivery" name="3"><br>
+<datalist id="delivery">
+	  <option>YES</option>
+	  <option>NO</option>
+</datalist>
+<br>
+
+<label for ="propositions"> Any propositions?: </label>
+	<textarea id ="propositions" rows="2" cols="23">  
+	</textarea>
+<br>
+<br>
+<form method="POST" action="THANKYOU.html">
+       <input type="Submit"/>
+     </form>
+
+</body>
+</html>
+
